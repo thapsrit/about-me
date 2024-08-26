@@ -4,24 +4,37 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  .app-link {
+    font-size: 14px;
+  }
+
+  h2,
+  p,
+  a {
+    text-align: center;
+  }
+  a {
+    display: block;
+  }
+}
+
 body {
-  margin: 60px auto;
-  max-width: 800px;
+  margin: 100px 0px;
 }
 
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 70px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 38px;
 }
 
 h3 {
