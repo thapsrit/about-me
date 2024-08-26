@@ -30,11 +30,11 @@ h3 {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 96px;
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 48px;
 }
 
 h3 {
@@ -43,12 +43,9 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
+
+  line-height: 1;
 }
 
 .navigation-links {
@@ -59,10 +56,6 @@ p {
 
 .navigation-links a {
   margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
 }
 
 .contact-link {
